@@ -1,0 +1,88 @@
+/*change background color margin width of the body*/
+body {
+  background-color: green;
+  margin: 15px auto;
+  min-width: 270px;
+  max-width: 50%;
+  
+}
+/*set box size*/
+* {
+  box-sizing: border-box;
+}
+
+/*set margin and padding to 0*/
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* change font size, set padding position cursor of list*/
+ul li {
+  font-size: 20px;
+  padding: 10px 9px 10px 40px;
+  cursor: pointer;
+  position: relative;
+  list-style-type: none;
+}
+
+/* set positon,padding of close button*/
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+/*for close button*/
+.close:hover {
+    background-color: white;
+    color:black;
+  }
+  /*set background, color of text, padding and text_align as center*/
+.header {
+  background-color: black;
+  color: white;
+  padding: 30px 40px;
+  text-align: center;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*set values of input*/
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 12px;
+  float: left;
+  font-size: 20px;
+}
+/*add font weight,style,size,background,color, padding,width to add button*/
+.add {
+  font-weight: bold;
+  font-style: italic;
+  font-size: xx-large;
+  background: blue;
+  color:black;
+  padding: 15px;
+  width: 25%;
+  text-align: center;
+  float: left;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/*add background, color,width,font-weight,style,size to delete button*/
+#delete-list{
+  margin: 40px 35%;
+  background-color: rgb(104, 48, 57);
+  color: black;
+  width: 30%;
+  font-weight: bold;
+  font-style: italic;
+  font-size: xx-large;
+  
+}
